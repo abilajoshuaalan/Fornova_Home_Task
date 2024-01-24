@@ -1,13 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-import json
-
 
 # Load the JSON file and find the lowest price
-    
+import json
+
 with open(r"C:\Users\Royak Kings\Downloads\Python-task.json", 'r') as file:
     data = json.load(file)
-
 
 # Assuming the relevant data is under 'assignment_results'
 assignment_results = data.get('assignment_results', [])
@@ -28,9 +24,13 @@ for result in assignment_results:
             continue
 
 # Check if lowest price was found, otherwise set to None
-lowest_price = None if lowest_price == float('inf') else lowest_price
+if lowest_price == float('inf'):
+    lowest_price = None
+else:
+    lowest_price
 
 print (lowest_price)
+
 
 # find the cheapest price but also the corresponding room type and number of guests
 
@@ -67,6 +67,7 @@ lowest_price_details = {
 }
 
 print (lowest_price_details)
+
 
 # Calculating and printing the total price (Net price + taxes) for all rooms along with the room type
 
