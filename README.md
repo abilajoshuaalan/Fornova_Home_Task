@@ -38,10 +38,6 @@ Output Generation: Prints the results to the console.
 The script assumes that the JSON file is correctly formatted and contains the required data fields.
 
 
-##### Limitations and Assumptions: 
-The script assumes that the JSON file is correctly formatted and contains the required data fields.
-
-
 ##### Author: 
 Joshua Abila
 
