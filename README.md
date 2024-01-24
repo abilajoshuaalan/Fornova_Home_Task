@@ -1,2 +1,2 @@
 # Fornova_Home_Task
- Download and load the above JSON file 
+ Load and manipulate data from a JSON file 
