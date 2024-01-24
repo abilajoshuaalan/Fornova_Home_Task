@@ -34,8 +34,9 @@ JSON Data Loading: Opens and reads the Python-task.json file.
 Data Processing: Extracts and processes the necessary information from the JSON data.
 Output Generation: Prints the results to the console.
 
-Limitations and Assumptions: 
+Limitations and Assumptions
 The script assumes that the JSON file is correctly formatted and contains the required data fields.
 
 
-Author: Joshua Abila
+Author
+Joshua Abila
