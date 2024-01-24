@@ -4,9 +4,9 @@ Overview
 This project involves analyzing hotel pricing data from a JSON file (Python-task.json). 
 
 The primary objectives are to:
-i     Find the lowest price for hotel rooms.
-ii    Identify the room type and number of guests for the cheapest room.
-iii   Calculate and display the total price (net price + taxes) for all room types.
+(i)     Find the lowest price for hotel rooms.
+(ii)   Identify the room type and number of guests for the cheapest room.
+(iii)  Calculate and display the total price (net price + taxes) for all room types.
 The project is implemented in Python and involves JSON data parsing, data manipulation, and basic file operations.
 
 File Description
@@ -25,7 +25,7 @@ Calculating the total price for each room, including taxes.
 Optionally, the results can be written to an output file for further analysis or reporting.
 
 Requirements
-Python 3. x
+Python 3.9
 Access to the Python-task.json file.
 Sample Code Description
 
